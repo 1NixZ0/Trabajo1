@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="css/compradeentradas.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Entradas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compra de Entradas</h1>
+
+        <div class="ticket-form">
+            <form action="#" method="POST">
+                <label for="event">Evento:</label>
+                <select id="event" name="event">
+                    <option value="concierto">Concierto de The Weeknd</option>
+                    
+                </select>
+
+                <label for="tickets">Número de Entradas:</label>
+                <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Comprar Entradas</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
