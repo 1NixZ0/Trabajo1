@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, #d81313, #000000d7 ) ;
+    height: 100vh;
+    background-image: url(Imagenes/wallpaperbetter.jpg);
+    background-size: cover;
+    
+}
+
+header {
+    background-color: #a12a2ad3;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #79797900;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcfcfc;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.message-container {
+    border: 1px solid #dddddd00;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f900;
+    transition: box-shadow 0.3s ease;
+}
+
+.message-container:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.message-container .sender {
+    font-weight: bold;
+    color: #742709;
+    font-size: 20px;
+}
+
+.message-container .timestamp {
+    color: #999;
+    font-size: 14px;
+}
+
+.message-container .message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #f8f8f8;
+}
+
+.new-message-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.new-message-form textarea {
+    resize: none;
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.new-message-form textarea:focus {
+    border-color: #ce673e;
+    outline: none;
+}
+
+.new-message-form input[type="submit"] {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.new-message-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+

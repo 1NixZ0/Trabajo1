@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: the weeknd;
+    background: linear-gradient(150deg, #d81313, #000000d7 ) ;
+    height: 100vh;
+    background-image: url(Imagenes/wallpaperflare-cropped.jpg);
+    background-size: cover;
+    
+}
+
+
+nav ul li a:hover {
+    background-color: #000000;
+}
+
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#bienvenida {
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    margin: 150px;
+    font-size: 30px;
+}
+
+#funciones-principales {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.funcion {
+    width: 150px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(194, 128, 128, 0);
+    text-align: center;
+    
+}
+
+.funcion img {
+    width: 150px;
+    height: 150x;
+    text-decoration: none;
+    
+}
+
+.funcion h2 {
+    color:black
+    
+    
+
+    
+}
+
+.icono{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.icono img{
+    height: 120px;
+    margin-right: 40px;
+    
+}
+
+@font-face {
+    font-family: the weeknd;
+    src: url(Klarissa.ttf);
+}
+
+
